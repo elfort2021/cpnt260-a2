@@ -16,16 +16,18 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
+
   font-family:'Poppins', sans-serif;
   background-color :black;
+  
   position: sticky;
  
 
 }  
 
 .logo {
- 
   color: white;
+
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
@@ -51,6 +53,7 @@ nav {
 
 .nav-links a {
   color: gray;
+
   text-transform: uppercase;
   text-decoration: none; 
   letter-spacing: 2px;
@@ -113,7 +116,7 @@ nav {
 
 
 footer {
-  position: fixed;
+  position: sticky;
   width: 100%;
   background-color: black;
   color: white;
