@@ -1,0 +1,141 @@
+
+body { 
+  margin: 0; 
+  padding: 0;
+  background-image: url(/assets/images/nhello.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+
+nav {
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  font-family:'Poppins', sans-serif;
+  background-color :black;
+  position: sticky;
+ 
+
+}  
+
+.logo {
+ 
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+
+}
+
+
+.logo, .header-image { 
+  display: flex; 
+
+}
+  
+.nav-links {
+  display: flex;
+  width: 40%; 
+  justify-content: space-around;
+}
+
+.nav-links li {
+  list-style: none; 
+}
+
+
+.nav-links a {
+  color: gray;
+  text-transform: uppercase;
+  text-decoration: none; 
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 14px;
+
+}
+
+.nav-links li :hover { 
+  color: whitesmoke; 
+  
+
+}
+
+.hamburger-menu { 
+  display: flex; 
+  background-color: rgb(1, 8, 17);
+  margin: 1rem;
+ 
+
+
+}
+
+
+
+.button1 { 
+  display: block;
+  color: black; 
+  background-color:#696969;
+
+  text-decoration: none;
+  text-transform: lowercase;
+  letter-spacing: 2px; 
+  font-weight: bold;
+
+  padding: 20px;
+  border-radius: 50px;
+  display: inline-block; 
+
+  opacity: 70%; 
+  flex-basis: 1rem;
+  
+}
+
+.button :hover { 
+      opacity: 100%; 
+
+}
+
+
+/* .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  
+} */
+
+
+footer {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  color: white;
+  opacity: 50%; 
+  padding: .5 rem;
+  bottom: 0;
+  text-align: center; 
+}
+
+
+
+@media screen and (min-width: 765px)
+{
+.burger {
+  display: none;
+  }
+}
+
+@media screen and (max-width: 765px) { 
+  .nav-links {
+ display: none;
+  }
+  .button1 {
+      display: none;
+  }
