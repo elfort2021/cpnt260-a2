@@ -13,7 +13,7 @@ https://elfort2021.github.io/cpnt260-a2/
 - Continuing build on my personal page, trials and errors abound. 
 
 **Shout Out** 
-- Kyle, who singlehandedly answers all my questions and then shows me how to fix all the stuff I try to fix. Awesome teacher 
+- Kyle, who singlehandedly answers all my questions and then shows me how to fix all the stuff I try to fix. Awesome teacher, probably needs a raise 
 - Erica, my actual life line and mental health support 
 - Karen, also mental health support 
 
